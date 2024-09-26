@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --activityadministration: #5d63f6;
+    --activityassessment: #eb66a2;
+    --activitycollaboration: #f7634d;
+    --activitycommunication: #11a676;
+    --activitycontent: #399be2;
+    --activityinterface: #a378ff;
+    --blue: #1177d1;
+    --indigo: #6610f2;
+    --purple: #613d7c;
+    --pink: #e83e8c;
+    --red: #d9534f;
+    --orange: #f0ad4e;
+    --yellow: #ff7518;
+    --green: #5cb85c;
+    --teal: #20c997;
+    --cyan: #5bc0de;
+    --white: #fff;
+    --gray: #868e96;
+    --gray-dark: #373a3c;
+    --primary: #004675;
+    --secondary: #e9ecef;
+    --success: #5cb85c;
+    --info: #5bc0de;
+    --warning: #f0ad4e;
+    --danger: #d9534f;
+    --light: #fafafa;
+    --dark: #373a3c;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+
+/*general/global styling*/
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+/*HEADER SECTION STYLING*/
+
+header{
+    border-bottom: 2px solid #3190cf; 
+}
+
+.navigation_sections{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}   
+
+.navitagion_link_main a{
+    margin: 5px;
+    padding:8px;
+    font-size: 1.171875rem;
+    font-family: var(--font-family-sans-serif);
+    font-weight: 400;
+    color: #373a3c;
+}
+
+#cepfnuria{
+    margin-left: 10px;
+    color: #777;
+}
+
+#cepfnuria{
+    transition: 200ms all ease-in-out;
+    border-radius: 10px;
+}
+
+#Access{
+    transition: 200ms all ease-in-out;
+    border-radius: 10px;
+}
+
+#principal_page{
+    border-radius: 10px;
+    color: #1177d1;
+}
+
+#cepfnuria:hover,
+#Access:hover{
+    color: #1177d1;
+}
+
+.navigation_section_rigth,
+.navigation_section_left{
+    display: flex;
+    align-items: center;
+}
+
+
+.lanbutton{
+    color: #373a3c;
+}
