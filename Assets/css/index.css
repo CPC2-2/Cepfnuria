@@ -107,3 +107,34 @@ header{
 .lanbutton{
     color: #373a3c;
 }
+
+#arrow_down{
+    width: 15px;
+    padding-top: 8px;
+    margin-left: 7px;
+}
+
+.link_switch{
+    display: flex;
+    align-items: center;
+}
+
+/*MAIN STYLING*/
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main_left h2{
+    font-family: var(--font-family-sans-serif);
+    font-weight: 100;
+    font-size: 30px;
+}
+
+main{
+    padding-top:40px;
+    width: 1120px;
+    margin: 0 auto;
+}
