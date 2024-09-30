@@ -123,6 +123,8 @@ header{
 
 main{
     padding: 1.5rem;
+    max-width: 1000px;
+    margin: auto;
 }
 
 .logo_img{
