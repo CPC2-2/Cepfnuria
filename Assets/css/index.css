@@ -60,13 +60,13 @@ header{
 .navigation_sections{
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+    padding: 17px;
 }   
 
 .navitagion_link_main a{
     margin: 5px;
     padding:8px;
-    font-size: 1.171875rem;
+    font-size: 1.101875rem;
     font-family: var(--font-family-sans-serif);
     font-weight: 400;
     color: #373a3c;
