@@ -63,6 +63,7 @@ header{
     padding: 17px;
 }   
 
+.navitagion_link_main_session a,
 .navitagion_link_main a{
     margin: 5px;
     padding:8px;
@@ -126,6 +127,11 @@ main{
     max-width: 1000px;
     margin: auto;
 }
+
+.main_header_logo{
+    margin-bottom: 50px;
+}
+
 .center_name h2{
     font-weight: 700;
     font-size: 1.9rem;
@@ -150,10 +156,12 @@ main{
     padding: 10px;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
+    width: 220px;
 }
 
 .input_search_box{
     display: flex;
+    max-width: 300px;
 }
 
 #search_icon{
@@ -163,4 +171,31 @@ main{
 .logo_img{
     display: flex;
     justify-content: flex-end;
+}
+
+
+/*----------------CATEGORIES----------------*/
+
+.categories_box{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wrap_button{
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+
+/*query-mobile-phone*/
+
+@media (max-width:871px){
+    .navigation_section_left a{
+        display: none;
+    }
+    .navitagion_link_main a{
+        display: none;
+    }
 }
