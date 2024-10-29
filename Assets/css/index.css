@@ -209,6 +209,7 @@ main{
     font-size: 17px;
     font-family: var(--font-family-sans-serif);
     font-weight: 400;
+    padding-left: 20px;
 }
 
 .info a,
@@ -227,7 +228,12 @@ main{
     color: var(--blue);
 }
 
-
+.categori_name{
+    background-image: url(/Assets/img/punta-de-flecha-hacia-arriba.png);
+    background-repeat: no-repeat;
+    background-position: left 70%;
+    background-size: 15px;
+}
 
 
 
