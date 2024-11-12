@@ -195,17 +195,17 @@ main{
     font-size: 30px;
 }
 
-.categories{
-    margin-top: 20px;
-}
-
 .info,
-.subcategories{
+.categories{
     padding-bottom: 10px;
 }
 
+.categories_general_box{
+    margin-top: 20px;
+}
+
 .info h3,
-.subcategories h3{
+.categories h3{
     font-size: 17px;
     font-family: var(--font-family-sans-serif);
     font-weight: 400;
@@ -213,7 +213,7 @@ main{
 }
 
 .info a,
-.subcategories a{
+.categories a{
     color: var(--gray-dark);
 }
 
@@ -229,7 +229,7 @@ main{
 }
 
 .categori_name{
-    background-image: url(/Assets/img/punta-de-flecha-hacia-arriba.png);
+    background-image: url(/Assets/img/arriba.png);
     background-repeat: no-repeat;
     background-position: left 70%;
     background-size: 15px;
