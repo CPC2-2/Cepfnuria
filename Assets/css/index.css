@@ -235,6 +235,21 @@ main{
     background-size: 15px;
 }
 
+.subcategori_info{
+    font-family: var(--font-family-sans-serif); 
+    display: flex;
+    padding-top: 10px;
+}
+
+#subcategories_box {
+    display: none;
+}
+
+.subcategori_info li a{
+    margin-left: 20px;
+    padding-right: 5px;
+}
+
 
 
 /*query-mobile-phone*/
